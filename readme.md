@@ -1,6 +1,6 @@
 # EventStream
 
-Quick and dirty bootstrap based rabbitmq consumer built with Tornado & Kombu. 
+Quick and dirty Tornado based rabbitmq consumer built with Bootstrap. 
 
 ### Why?
 
