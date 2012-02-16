@@ -1,0 +1,6 @@
+<div class="message well">
+  <span class="label label-{{message["state"]}}">{{message["state_msg"]}}</span>
+  <time class="timeago" datetime="{{ message["timestamp"]}}"></time>
+  <strong>{{message["host"]}}</strong>
+  {% raw message["body"] %}
+</div>
