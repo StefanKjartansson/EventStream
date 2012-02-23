@@ -13,7 +13,7 @@ You will need a running kombu compatible amqp server.
 
 	virtualenv --no-site-packages env
 	. env/bin/activate
-	pip install -E env -r requirements.txt
+	pip install -r requirements.txt
 	python server.py
 
 
